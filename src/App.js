@@ -2,10 +2,11 @@ import logo from "./logo.svg";
 import "../src/CSS/App.css";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import SiteNavbar from "./components/SiteNavbar";
-import AboutMeIntro from "./components/AboutMeIntro";
+import AboutMeImg from "./components/AboutMeImg";
 import ProjectsApps from "./components/ProjectsApps";
 import ProjectsGames from "./components/ProjectsGames";
 import Resume from "./components/Resume";
+import AboutMeText from "./components/AboutMeText";
 //React Bootstrap site: 
 //https://react-bootstrap.github.io/
 
@@ -17,7 +18,8 @@ function App() {
           <Col><SiteNavbar/></Col>
         </Row>
         <Row className="">
-          <Col><AboutMeIntro/></Col>
+          <Col><AboutMeImg/></Col>
+          <Col><AboutMeText/></Col>
         </Row>
         <Row className="">
           <Col><ProjectsApps/></Col>
