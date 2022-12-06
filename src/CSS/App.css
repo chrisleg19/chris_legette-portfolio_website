@@ -1,0 +1,11 @@
+.App{
+    background-color: black;
+    color: white;
+}
+
+.aboutMeRow{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+

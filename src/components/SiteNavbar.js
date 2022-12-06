@@ -3,9 +3,9 @@ import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap';
 const SiteNavbar = () =>{
     return(
         <>  
-    <Navbar fixed='top' bg="secondary" expand="lg">  
+    <Navbar fixed='top' bg="info" expand="lg">  
     <Container>  
-      <Navbar.Brand href="#home">Navbar Brand</Navbar.Brand>  
+      <Navbar.Brand href="#home">Chris Brand</Navbar.Brand>  
       <Navbar.Toggle aria-controls="basic-navbar-nav" />  
       <Navbar.Collapse id="basic-navbar-nav">  
         <Nav className="me-auto">  
@@ -22,7 +22,7 @@ const SiteNavbar = () =>{
       </Navbar.Collapse>  
     </Container>  
   </Navbar>  
-  <header className='bg-primary mt-5 p-2'>Header Component</header>  
+  {/* <header className='bg-primary mt-5 p-2'>Header Component</header>   */}
   </> 
     )
 

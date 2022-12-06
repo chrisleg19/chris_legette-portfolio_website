@@ -17,8 +17,8 @@ function App() {
         <Row className="">
           <Col><SiteNavbar/></Col>
         </Row>
-        <Row className="">
-          <Col><AboutMeImg/></Col>
+        <Row className="aboutMeRow">
+          <Col><AboutMeImg className="aboutMeImg"/></Col>
           <Col><AboutMeText/></Col>
         </Row>
         <Row className="">
