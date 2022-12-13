@@ -5,18 +5,18 @@ const SiteNavbar = () =>{
         <>  
     <Navbar fixed='top' bg="info" expand="lg">  
     <Container>  
-      <Navbar.Brand href="#home">Chris Brand</Navbar.Brand>  
+      <Navbar.Brand href="#home">Chris Legette</Navbar.Brand>  
       <Navbar.Toggle aria-controls="basic-navbar-nav" />  
       <Navbar.Collapse id="basic-navbar-nav">  
         <Nav className="me-auto">  
-          <Nav.Link href="#home">Home</Nav.Link>  
-          <Nav.Link href="#link">Link</Nav.Link>  
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">  
-            <NavDropdown.Item href="#action/3.1">Item 1</NavDropdown.Item>  
-            <NavDropdown.Item href="#action/3.2">Item 2</NavDropdown.Item>  
-            <NavDropdown.Item href="#action/3.3">Item 3</NavDropdown.Item>  
+          <Nav.Link href="#home">Projects</Nav.Link>  
+          <Nav.Link href="#link">Games</Nav.Link>  
+          <NavDropdown title="Resume" id="basic-nav-dropdown">  
+            <NavDropdown.Item href="#action/3.1">Education</NavDropdown.Item>  
+            <NavDropdown.Item href="#action/3.2">Experience</NavDropdown.Item>  
+            <NavDropdown.Item href="#action/3.3">Achievements</NavDropdown.Item>  
             <NavDropdown.Divider />  
-            <NavDropdown.Item href="#action/3.4">Separated Item</NavDropdown.Item>  
+            <NavDropdown.Item href="#action/3.4">Makeiteasy.shop</NavDropdown.Item>  
           </NavDropdown>  
         </Nav>  
       </Navbar.Collapse>  

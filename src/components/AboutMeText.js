@@ -2,8 +2,13 @@
 
 const AboutMeText = () =>{
     return(
-        <div style={{textAlign:"center"}}>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut etiam sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada. Sed blandit libero volutpat sed cras ornare arcu dui. Neque vitae tempus quam pellentesque nec nam aliquam sem. In massa tempor nec feugiat nisl. Porttitor leo a diam sollicitudin tempor id eu. Tellus cras adipiscing enim eu turpis egestas pretium. Posuere urna nec tincidunt praesent semper feugiat nibh. Lorem mollis aliquam ut porttitor leo a.</h5>
+        <div style={{}}>
+            <h5>Hello and welcome!  My name is Chris Legette.  My professional career began in 2011 when I commissioned as a Logistics Officer with the U.S. Army.  
+      After a deployment to Qatar in 2014, I joined the civilian workforce and managed 
+      operations for a few companies in various industries such as aerospace manufacturing, 
+      distribution, and IT services.  <br/><br/>  I enjoy using technology while at work and at home...especially if it makes something easier! <br/><br/>  With the help of Per Scholas, the ultimate goal is to leverage my passion for 
+        technology and my experience in operations to begin a new career in 
+        development and solving problems.</h5>
 
             
 

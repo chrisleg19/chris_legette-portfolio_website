@@ -8,42 +8,50 @@ import React, { useState } from 'react';
 const ProjectsApps = () =>{
     return(
         <Carousel fade>
-      <Carousel.Item>
+      <Carousel.Item className='firstSlideContainer'>
         <img
           className="d-block w-100"
-          src="https://images.unsplash.com/photo-1666408738188-212c470d08b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGFwcCUyMGNvdmVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          fluid src= {require("../resources/clblogapp_screenshot.jpg")}
           alt="First slide"
         />
+        <div className='captionBlock1'>
         <Carousel.Caption>
-          <h3>Apps</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Intro to Software Engineering</h3>
+          <p>A blog where developers can write about their start to software engineering.</p>
         </Carousel.Caption>
+        </div>
       </Carousel.Item>
-      <Carousel.Item>
+
+      <Carousel.Item className='secondSlideContainer'>
         <img
           className="d-block w-100"
-          src="https://images.unsplash.com/photo-1666408738188-212c470d08b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGFwcCUyMGNvdmVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          fluid src= {require("../resources/project_manager_app_screenshot.jpg")}
           alt="Second slide"
         />
-
+        <div className='captionBlock2'>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Project Manager App</h3>
+          <p>An application to help Project Managers manage projects!</p>
         </Carousel.Caption>
+        </div>
       </Carousel.Item>
+
+      
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.unsplash.com/photo-1666408738188-212c470d08b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGFwcCUyMGNvdmVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+          fluid src= {require("../resources/reactmovieapp_screenshot.jpg")}
           alt="Third slide"
         />
 
+      <div className='captionBlock3'>
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Movie Search App</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            An application to find and read more information about your favorite movie!
           </p>
         </Carousel.Caption>
+        </div>
       </Carousel.Item>
     </Carousel>
     )
