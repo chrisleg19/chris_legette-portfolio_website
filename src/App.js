@@ -18,12 +18,12 @@ function App() {
           <Col><SiteNavbar/></Col>
         </Row>
         <Row className="aboutMeRow">
-          <Col><AboutMeImg className="aboutMeImg"/></Col>
-          <Col><AboutMeText/></Col>
+          <Col xs={12} md={6}><AboutMeImg className="aboutMeImg"/></Col>
+          <Col xs={12} md={6}><AboutMeText/></Col>
         </Row>
-        <Row className="">
-          <Col><ProjectsApps/></Col>
-          <Col><ProjectsGames/></Col>
+        <Row className="applications">
+          <Col xs={12} md={6}><ProjectsApps/></Col>
+          <Col xs={12} md={6}><ProjectsGames/></Col>
         </Row>
         <Row className="">
           <Col><Resume/></Col>

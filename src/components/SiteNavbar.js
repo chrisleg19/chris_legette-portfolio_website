@@ -3,7 +3,7 @@ import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap';
 const SiteNavbar = () =>{
     return(
         <>  
-    <Navbar fixed='top' bg="info" expand="lg">  
+    <Navbar fixed='top' bg="dark" variant="dark" expand="lg" className='nav'>  
     <Container>  
       <Navbar.Brand href="#home">Chris Legette</Navbar.Brand>  
       <Navbar.Toggle aria-controls="basic-navbar-nav" />  

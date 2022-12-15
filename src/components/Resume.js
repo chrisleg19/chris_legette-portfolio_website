@@ -3,6 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const Resume = () =>{
     return(
+      <div className="resumeContainer">
         <Accordion>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Accordion Item #1</Accordion.Header>
@@ -29,6 +30,7 @@ const Resume = () =>{
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    </div>
     )
 }
 

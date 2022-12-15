@@ -7,10 +7,11 @@ import React, { useState } from 'react';
 
 const ProjectsApps = () =>{
     return(
-        <Carousel fade>
-      <Carousel.Item className='firstSlideContainer'>
+      <div className="carouselContainer">
+        <Carousel fade className="carousel">
+      <Carousel.Item className='slideContainer'>
         <img
-          className="d-block w-100"
+          className="d-block w-100 picture"
           fluid src= {require("../resources/clblogapp_screenshot.jpg")}
           alt="First slide"
         />
@@ -22,9 +23,9 @@ const ProjectsApps = () =>{
         </div>
       </Carousel.Item>
 
-      <Carousel.Item className='secondSlideContainer'>
+      <Carousel.Item className='slideContainer'>
         <img
-          className="d-block w-100"
+          className="d-block w-100 picture"
           fluid src= {require("../resources/project_manager_app_screenshot.jpg")}
           alt="Second slide"
         />
@@ -37,9 +38,9 @@ const ProjectsApps = () =>{
       </Carousel.Item>
 
       
-      <Carousel.Item>
+      <Carousel.Item className='slideContainer'>
         <img
-          className="d-block w-100"
+          className="d-block w-100 picture"
           fluid src= {require("../resources/reactmovieapp_screenshot.jpg")}
           alt="Third slide"
         />
@@ -54,6 +55,7 @@ const ProjectsApps = () =>{
         </div>
       </Carousel.Item>
     </Carousel>
+    </div>
     )
 }
 

@@ -3,16 +3,48 @@
     color: white;
 }
 
+.applications{
+    flex-wrap: wrap;
+}
+
+.nav{
+    color: ghostwhite
+}
+
 .aboutMeRow{
     padding-top: 70px;
     padding-bottom: 10px;
     align-items: center;
 }
 
+.carousel{
+    /* border: solid ghostwhite 1px;
+    padding: 5px; */
+    box-shadow: 0 4px 8px 0 ghostwhite;
+    transition: 0.3s;
+    border-radius: 5%;
+}
 
+.carousel:hover{
+    box-shadow: 0 8px 16px 0 ghostwhite;
+}
+
+.carouselContainer{
+    margin-top: 1em;
+    padding: 2px 16px;
+    
+}
+
+.picture{
+    padding: .3em;
+    height: 30em;
+    width: auto;
+    border-radius: 6.5%;
+}
 
 .captionBlock1{
     margin-top: 200px;
+
 }
 
 .captionBlock2{
@@ -23,3 +55,6 @@
     margin-top: 200px;
 }
 
+.resumeContainer{
+    margin-top: 2em;
+}
