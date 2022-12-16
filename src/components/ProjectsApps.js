@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 
 const ProjectsApps = () =>{
     return(
-      <div className="carouselContainer">
+      <div className="carouselContainer" id='projects'>
         <Carousel fade className="carousel">
       <Carousel.Item className='slideContainer'>
         <img

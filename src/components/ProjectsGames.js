@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const ProjectsGames = () =>{
     return(
-      <div className="carouselContainer">
+      <div className="carouselContainer" id='games'>
       <Carousel fade className="carousel">
       <Carousel.Item className='firstSlideContainer'>
         <img
