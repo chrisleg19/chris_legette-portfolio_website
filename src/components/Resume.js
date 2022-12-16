@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <div className="resumeContainer">
       <h3 style={{ textAlign: "center" }}>Resume</h3>
-      <h6 className="professionalSummary">
+      <h6 className="professionalSummary" id="summary">
         Full Stack Developer with hands-on technical training in HTML, CSS,
         JavaScript, Node.JS, React, Express, MongoDB, and APIs. A strong
         background in Logistics, Operations, and Management. Recently completed
@@ -15,7 +15,9 @@ const Resume = () => {
       </h6>
       <Accordion alwaysOpen>
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Technical Skills</Accordion.Header>
+          <Accordion.Header id="technicalSkills">
+            Technical Skills
+          </Accordion.Header>
           <Accordion.Body>
             <Table striped bordered hover variant="dark">
               <thead>
@@ -69,26 +71,51 @@ const Resume = () => {
         <Accordion.Item eventKey="1">
           <Accordion.Header>Education</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <ul>
+              <div className="educationBlock">
+                <h6>Per Scholas - Atlanta, GA</h6>
+                <h6>Graduation Date: 11/2022</h6>
+              </div>
+              <li className="educationLi">
+                Completed 550+ hours of daily coding in JavaScript, HTML, and
+                CSS using Node.js, Express, MongoDB and React. Worked in an
+                Agile environment and successfully deployed various projects
+                utilizing SDLC.
+              </li>
+            </ul>
+
+            <ul>
+              <div className="educationBlock">
+                <h6>Colorado Technical University - Colorado Springs, CO</h6>
+                <h6>Graduation Date: 02/2019</h6>
+              </div>
+              <li className="educationLi">MBA in Operations & Supply Chain Management</li>
+            </ul>
+
+            <ul>
+              <div className="educationBlock">
+                <h6>Samford University - Birmingham, AL</h6>
+              </div>
+              <li className="educationLi">
+                Bachelor of Arts Degree in Public Administration - Minor in
+                Military Science
+              </li>
+            </ul>
           </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="2">
           <Accordion.Header>Certifications</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+          <ul>
+              <div className="certificateBlock">
+              <li className="certificateLi">Per Scholas Software Engineering Bootcamp</li> 
+
+
+              <p>November 2022</p>
+              </div>
+              
+            </ul>
           </Accordion.Body>
         </Accordion.Item>
 

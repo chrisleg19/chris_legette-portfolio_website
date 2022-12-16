@@ -58,3 +58,18 @@
 .resumeContainer{
     margin-top: 2em;
 }
+
+.educationBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.educationLi{
+    margin-left: 3em;
+}
+
+.certificateBlock{
+    display: flex;
+    justify-content:space-between;
+}
+
