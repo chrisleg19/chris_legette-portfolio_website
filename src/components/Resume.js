@@ -1,6 +1,20 @@
 import Accordion from "react-bootstrap/Accordion";
 import Table from "react-bootstrap/Table";
 
+let modal =document.getElementById("myModal")
+let img = document.getElementById("myImg")
+let modalImg = document.getElementById("img01")
+let captionText = document.getElementById("caption")
+img.onclick = function(){
+modal.style.display = "block"
+  modalImg.src = this.src
+  captionText.innerHTML = this.alt
+}
+let span = document.getElementsByClassName("close")[0]
+span.onclick = function(){
+  modal.style.display = "none"
+}
+
 const Resume = () => {
   return (
     <div className="resumeContainer">
@@ -111,6 +125,15 @@ const Resume = () => {
               <div className="certificateBlock">
               <li className="certificateLi">Per Scholas Software Engineering Bootcamp</li> 
 
+              <img alt="software_engineering_cert" src={require("../resources/software_engineering_bootcamp.png")} style={{width:"100%", maxWidth:"300px"}}  id="myImg"/>
+
+             <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img alt="" class="modal-content" id="img01"/>
+              <div id="caption"></div>
+              </div>
+
+              
 
               <p>November 2022</p>
               </div>
