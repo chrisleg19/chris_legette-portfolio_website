@@ -5,7 +5,7 @@ const SiteNavbar = () =>{
         <>  
     <Navbar fixed='top' bg="dark" variant="dark" expand="lg" className='nav'>  
     <Container>  
-      <Navbar.Brand href="#home">Chris Legette</Navbar.Brand>  
+      {/* <Navbar.Brand href="#home">Chris Legette</Navbar.Brand>   */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />  
       <Navbar.Collapse id="basic-navbar-nav">  
         <Nav className="me-auto">  

@@ -1,21 +1,11 @@
 import Accordion from "react-bootstrap/Accordion";
 import Table from "react-bootstrap/Table";
+import {Container, Row, Col} from "react-bootstrap"
 
-let modal = document.getElementById("myModal");
-let img = document.getElementById("myImg");
-let modalImg = document.getElementById("img01");
-let captionText = document.getElementById("caption");
-img.onclick = function () {
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-};
-let span = document.getElementsByClassName("close")[0];
-span.onclick = function () {
-  modal.style.display = "none";
-};
 
 const Resume = () => {
+
+
   return (
     <div className="resumeContainer">
       <h3 style={{ textAlign: "center" }}>Resume</h3>
@@ -123,10 +113,13 @@ const Resume = () => {
         <Accordion.Item eventKey="2">
           <Accordion.Header>Certifications</Accordion.Header>
           <Accordion.Body className="certificateBlock">
+            <Container>
+              <Row>
+                <Col xs={12} md={6}>
             <ul className="cert">
               <div className="certificateBlock">
                 <li className="certificateLi">
-                  Per Scholas Software Engineering Bootcamp
+                  Software Engineering Bootcamp
                 </li>
 
                 <p>November 2022</p>
@@ -138,23 +131,20 @@ const Resume = () => {
                   id="myImg"
                 />
 
-                <div id="myModal" class="modal">
-                  <span class="close">&times;</span>
-                  <img alt="" class="modal-content" id="img01" />
-                  <div id="caption"></div>
-                </div>
+             
 
                 
               </div>
             </ul>
-
+            </Col>
+            <Col xs={12} md={6}>
             <ul className="cert">
               <div className="certificateBlock">
                 <li className="certificateLi">
                   Lean Six Sigma Green Belt
                 </li>
                 
-                <p>November 2022</p>
+                <p>April 2016</p>
 
                 <img
                   alt="software_engineering_cert"
@@ -163,15 +153,14 @@ const Resume = () => {
                   id="myImg"
                 />
 
-                <div id="myModal" class="modal">
-                  <span class="close">&times;</span>
-                  <img alt="" class="modal-content" id="img01" />
-                  <div id="caption"></div>
-                </div>
+             
 
                 
               </div>
             </ul>
+            </Col>
+            </Row>
+            </Container>
           </Accordion.Body>
         </Accordion.Item>
 

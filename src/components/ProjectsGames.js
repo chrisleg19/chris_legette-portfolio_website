@@ -7,7 +7,7 @@ const ProjectsGames = () =>{
       <Carousel.Item className='firstSlideContainer'>
         <img
           className="d-block w-100 picture"
-          fluid src= {require("../resources/Jeopardy_screenshot.jpg")}
+          fluid="true" src= {require("../resources/Jeopardy_screenshot.jpg")}
           alt="First slide"
         />
         <div className='captionBlock1'>
@@ -21,7 +21,7 @@ const ProjectsGames = () =>{
       <Carousel.Item className='secondSlideContainer'>
         <img
           className="d-block w-100 picture"
-          fluid src= {require("../resources/Profit_margin_game_screenshot.jpg")}
+          fluid="true" src= {require("../resources/Profit_margin_game_screenshot.jpg")}
           alt="Second slide"
         />
         <div className='captionBlock2'>
@@ -36,7 +36,7 @@ const ProjectsGames = () =>{
       <Carousel.Item>
         <img
           className="d-block w-100 picture"
-          fluid src= {require("../resources/tic-tac-toe_screenshot.jpg")}
+          fluid="true" src= {require("../resources/tic-tac-toe_screenshot.jpg")}
           alt="Third slide"
         />
 

@@ -12,7 +12,7 @@ const ProjectsApps = () =>{
       <Carousel.Item className='slideContainer'>
         <img
           className="d-block w-100 picture"
-          fluid src= {require("../resources/clblogapp_screenshot.jpg")}
+          fluid="true" src= {require("../resources/clblogapp_screenshot.jpg")}
           alt="First slide"
         />
         <div className='captionBlock1'>
@@ -26,7 +26,7 @@ const ProjectsApps = () =>{
       <Carousel.Item className='slideContainer'>
         <img
           className="d-block w-100 picture"
-          fluid src= {require("../resources/project_manager_app_screenshot.jpg")}
+          fluid="true" src= {require("../resources/project_manager_app_screenshot.jpg")}
           alt="Second slide"
         />
         <div className='captionBlock2'>
@@ -41,7 +41,7 @@ const ProjectsApps = () =>{
       <Carousel.Item className='slideContainer'>
         <img
           className="d-block w-100 picture"
-          fluid src= {require("../resources/reactmovieapp_screenshot.jpg")}
+          fluid="true" src= {require("../resources/reactmovieapp_screenshot.jpg")}
           alt="Third slide"
         />
 
