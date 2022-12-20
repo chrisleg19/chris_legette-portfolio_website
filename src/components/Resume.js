@@ -9,22 +9,25 @@ const Resume = () => {
   return (
     <div className="resumeContainer">
       <h3 style={{ textAlign: "center" }}>Resume</h3>
-      <h6 className="professionalSummary" id="summary">
-        Full Stack Developer with hands-on technical training in HTML, CSS,
+      <Accordion alwaysOpen>
+      <Accordion.Item eventKey="0">
+          <Accordion.Header id="summary">Summary</Accordion.Header>
+          <Accordion.Body>
+          Full Stack Developer with hands-on technical training in HTML, CSS,
         JavaScript, Node.JS, React, Express, MongoDB, and APIs. A strong
         background in Logistics, Operations, and Management. Recently completed
         550+ hours of software development training within an agile environment,
         encompassing the Software Development Life Cycle. Exposure to various
-        technologies such as SAP, ServiceNow, and Azure
-      </h6>
-      <Accordion alwaysOpen>
-        <Accordion.Item eventKey="0">
+        technologies such as SAP, ServiceNow, and Azure.
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="1">
           <Accordion.Header id="technicalSkills">
             Technical Skills
           </Accordion.Header>
           <Accordion.Body>
-            <Table striped bordered hover variant="dark">
-              <thead>
+            <Table striped bordered hover variant="dark" responsive size="sm">
+              <thead className="skillsHead">
                 <tr>
                   <th>Coding Languages:</th>
                   <th>Libraries/Frameworks:</th>
@@ -32,7 +35,7 @@ const Resume = () => {
                 </tr>
               </thead>
 
-              <tbody>
+              <tbody className="skillsBody">
                 <tr>
                   <td>JavaScript</td>
                   <td>Node.js</td>
@@ -72,7 +75,7 @@ const Resume = () => {
             </Table>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="1">
+        <Accordion.Item eventKey="2">
           <Accordion.Header>Education</Accordion.Header>
           <Accordion.Body>
             <ul>
@@ -81,7 +84,7 @@ const Resume = () => {
                 <h6>Graduation Date: 11/2022</h6>
               </div>
               <li className="educationLi">
-                Completed 550+ hours of daily coding in JavaScript, HTML, and
+                550+ hours of daily coding in JavaScript, HTML, and
                 CSS using Node.js, Express, MongoDB and React. Worked in an
                 Agile environment and successfully deployed various projects
                 utilizing SDLC.
@@ -110,7 +113,7 @@ const Resume = () => {
           </Accordion.Body>
         </Accordion.Item>
 
-        <Accordion.Item eventKey="2">
+        <Accordion.Item eventKey="3">
           <Accordion.Header>Certifications</Accordion.Header>
           <Accordion.Body className="certificateBlock">
             <Container>
@@ -164,7 +167,7 @@ const Resume = () => {
           </Accordion.Body>
         </Accordion.Item>
 
-        <Accordion.Item eventKey="3">
+        <Accordion.Item eventKey="4">
           <Accordion.Header>Professional Experience</Accordion.Header>
           <Accordion.Body>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

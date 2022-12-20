@@ -17,6 +17,8 @@
     align-items: center;
 }
 
+
+
 .carousel{
     /* border: solid ghostwhite 1px;
     padding: 5px; */
@@ -40,23 +42,40 @@
     height: 30em;
     width: auto;
     border-radius: 6.5%;
+ 
 }
 
 .captionBlock1{
-    margin-top: 150px;
+    /* margin-top: 200px; */
+    margin: none;
+   
+    /* margin-bottom: 100px; */
+    height: 225px;
 
 }
 
 .captionBlock2{
-    margin-top: 150px;
+    margin: none;
+    /* margin-top: 150px; */
+    height: 225px;
 }
 
 .captionBlock3{
-    margin-top: 150px;
+    margin: none;
+    /* margin-top: 150px; */
+    height: 225px;
 }
 
 .resumeContainer{
     margin-top: 2em;
+}
+
+.skillsHead{
+    text-align: center;
+}
+
+.skillsBody{
+    text-align: center;
 }
 
 .educationBlock{

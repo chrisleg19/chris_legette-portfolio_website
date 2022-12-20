@@ -9,7 +9,9 @@ const ProjectsApps = () =>{
     return(
       <div className="carouselContainer" id='projects'>
         <Carousel fade className="carousel">
+          
       <Carousel.Item className='slideContainer'>
+       
         <img
           className="d-block w-100 picture"
           fluid="true" src= {require("../resources/clblogapp_screenshot.jpg")}
@@ -20,6 +22,7 @@ const ProjectsApps = () =>{
           <h3>Intro to Software Engineering</h3>
           <p>A blog where developers can write about their start to software engineering.</p>
         </Carousel.Caption>
+        
         </div>
       </Carousel.Item>
 
