@@ -230,7 +230,7 @@ const Resume = () => {
               <div>
                 <li style={{ marginLeft: "3em" }}>
                   GitHub:{" "}
-                  <a href="https://github.com/chrisleg19/">
+                  <a href="https://github.com/chrisleg19/" target="_blank" rel="noopener noreferrer">
                     https://github.com/chrisleg19/
                   </a>
                 </li>
