@@ -1,6 +1,15 @@
 .App{
     background-color: black;
     color: white;
+    margin: 50px;
+}
+
+#root{
+    background-color: black;
+}
+
+.htmlBackground{
+    background-color: black;
 }
 
 .applications{

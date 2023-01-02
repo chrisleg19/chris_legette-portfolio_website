@@ -1,24 +1,21 @@
 import Accordion from "react-bootstrap/Accordion";
 import Table from "react-bootstrap/Table";
-import {Container, Row, Col} from "react-bootstrap"
-
+import { Container, Row, Col } from "react-bootstrap";
 
 const Resume = () => {
-
-
   return (
     <div className="resumeContainer">
       <h3 style={{ textAlign: "center" }}>Resume</h3>
       <Accordion alwaysOpen>
-      <Accordion.Item eventKey="0">
+        <Accordion.Item eventKey="0">
           <Accordion.Header id="summary">Summary</Accordion.Header>
           <Accordion.Body>
-          Full Stack Developer with hands-on technical training in HTML, CSS,
-        JavaScript, Node.JS, React, Express, MongoDB, and APIs. A strong
-        background in Logistics, Operations, and Management. Recently completed
-        550+ hours of software development training within an agile environment,
-        encompassing the Software Development Life Cycle. Exposure to various
-        technologies such as SAP, ServiceNow, and Azure.
+            Full Stack Developer with hands-on technical training in HTML, CSS,
+            JavaScript, Node.JS, React, Express, MongoDB, and APIs. A strong
+            background in Logistics, Operations, and Management. Recently
+            completed 550+ hours of software development training within an
+            agile environment, encompassing the Software Development Life Cycle.
+            Exposure to various technologies such as SAP, ServiceNow, and Azure.
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
@@ -84,10 +81,10 @@ const Resume = () => {
                 <h6>Graduation Date: 11/2022</h6>
               </div>
               <li className="educationLi">
-                550+ hours of daily coding in JavaScript, HTML, and
-                CSS using Node.js, Express, MongoDB and React. Worked in an
-                Agile environment and successfully deployed various projects
-                utilizing SDLC.
+                550+ hours of daily coding in JavaScript, HTML, and CSS using
+                Node.js, Express, MongoDB and React. Worked in an Agile
+                environment and successfully deployed various projects utilizing
+                SDLC.
               </li>
             </ul>
 
@@ -119,50 +116,42 @@ const Resume = () => {
             <Container>
               <Row>
                 <Col xs={12} md={6}>
-            <ul className="cert">
-              <div className="certificateBlock">
-                <li className="certificateLi">
-                  Software Engineering Bootcamp
-                </li>
+                  <ul className="cert">
+                    <div className="certificateBlock">
+                      <li className="certificateLi">
+                        Software Engineering Bootcamp
+                      </li>
 
-                <p>November 2022</p>
+                      <p>November 2022</p>
 
-                <img
-                  alt="software_engineering_cert"
-                  src={require("../resources/software_engineering_bootcamp.png")}
-                  style={{ width: "100%", maxWidth: "300px" }}
-                  id="myImg"
-                />
+                      <img
+                        alt="software_engineering_cert"
+                        src={require("../resources/software_engineering_bootcamp.png")}
+                        style={{ width: "100%", maxWidth: "300px" }}
+                        id="myImg"
+                      />
+                    </div>
+                  </ul>
+                </Col>
+                <Col xs={12} md={6}>
+                  <ul className="cert">
+                    <div className="certificateBlock">
+                      <li className="certificateLi">
+                        Lean Six Sigma Green Belt
+                      </li>
 
-             
+                      <p>April 2016</p>
 
-                
-              </div>
-            </ul>
-            </Col>
-            <Col xs={12} md={6}>
-            <ul className="cert">
-              <div className="certificateBlock">
-                <li className="certificateLi">
-                  Lean Six Sigma Green Belt
-                </li>
-                
-                <p>April 2016</p>
-
-                <img
-                  alt="software_engineering_cert"
-                  src={require("../resources/SixSigmaGreenBeltCertificate.png")}
-                  style={{ width: "100%", maxWidth: "300px" }}
-                  id="myImg"
-                />
-
-             
-
-                
-              </div>
-            </ul>
-            </Col>
-            </Row>
+                      <img
+                        alt="software_engineering_cert"
+                        src={require("../resources/SixSigmaGreenBeltCertificate.png")}
+                        style={{ width: "100%", maxWidth: "300px" }}
+                        id="myImg"
+                      />
+                    </div>
+                  </ul>
+                </Col>
+              </Row>
             </Container>
           </Accordion.Body>
         </Accordion.Item>
@@ -170,13 +159,234 @@ const Resume = () => {
         <Accordion.Item eventKey="4">
           <Accordion.Header>Professional Experience</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <ul style={{ padding: 0 }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h6>Per Scholas - Full Stack Developer Intern (Atlanta, GA)</h6>
+                <h6>July 2022 - November 2022</h6>
+              </div>
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Applied MERN stack to develop a full CRUD blog application
+                  with server-side rendering
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Created single page applications using React with client-side
+                  routing through React Router
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Created and used REST APIs in various applications to manage
+                  data between client and server
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Implemented AJAX programming in React applications to
+                  dynamically access JSON data from databases
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Used JWT Authentication in applications, storing tokens in
+                  client-side cookies, local storage, and session storage
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Developed a simulation game using DOM manipulation to
+                  dynamically update content
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Designed and created responsive UI applications using
+                  wireframes, CSS, HTML, and JavaScript
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Utilized Git as the version control system to manage projects
+                  and collaborate with fellow developers
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Used Bash to manage Git repositories and read/write files on
+                  local operating system through command lines
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  GitHub:{" "}
+                  <a href="https://github.com/chrisleg19/">
+                    https://github.com/chrisleg19/
+                  </a>
+                </li>
+              </div>
+            </ul>
+
+            <ul style={{ padding: 0 }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h6>
+                  Makeiteasy.shop - Business Owner/Consultant (Atlanta, GA)
+                </h6>
+                <h6>June 2021 - Present</h6>
+              </div>
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Prepared clients for ISO2015:9001 QMS audit, with 100% pass
+                  rate
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Logistics and Operations Management consultation/services -
+                  Manufacturing; Warehousing; Transportation
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Sell products and gadgets that facilitate personal and
+                  professional tasks
+                </li>
+              </div>
+            </ul>
+
+            <ul style={{ padding: 0 }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h6>Enplas USA - Logistics Manager (Atlanta, GA)</h6>
+                <h6>March 2022 – May 2022</h6>
+              </div>
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Managed inventory of manufactured auto parts valued over $5M,
+                  with 99% inventory accuracy
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Executed 100% of deliveries on time with zero quality escapes
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Responsible for purchasing of raw material and supplier
+                  contracts valued up to $2M
+                </li>
+              </div>
+            </ul>
+
+            <ul style={{ padding: 0 }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h6>
+                  Prologic ITS - Director of Warehouse Operations (Atlanta, GA)
+                </h6>
+                <h6>July 2018 – October 2021</h6>
+              </div>
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Optimized 150,000+ sq. ft. of warehouse space to improve
+                  overall capacity and bottom line, increasing receiving
+                  productivity by 26% and shipping productivity by 43%
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Maintained a quality management system to ensure customer
+                  satisfaction and annual ISO 9001:2015 recertifications
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Managed operations of multiple value-added warehouses
+                  (140,000-sq. ft. & 100+ employees) for an IT services company
+                  providing various solutions such as warehousing, logistics,
+                  asset management, and hardware installations
+                </li>
+              </div>
+            </ul>
+
+            <ul style={{ padding: 0 }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h6>Honeywell Aerospace (Atlanta, GA)</h6>
+                <h6>June 2015 – July 2018 </h6>
+              </div>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h6>Site Operations Manager</h6>
+                <h6>January 2018 – July 2018</h6>
+              </div>
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Executed the implementation of SAP as a member of the ERP
+                  transition team, responsible for inventory data migration and
+                  workflow optimization
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Collaborate with cross functional teams on demand planning and
+                  continuous process improvement
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Utilized project management skills and Lean Six-Sigma
+                  principles to assist in the planning and development of a
+                  20,000-sq. ft. manufacturing lab for Honeywell’s Fuselage
+                  Mount Antenna production line.
+                </li>
+              </div>
+            </ul>
+
+            <ul style={{ padding: 0 }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h6>Production Supervisor</h6>
+                <h6>August 2016 – July 2018</h6>
+              </div>
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Coordinated assembly and testing schedules for production and
+                  repair of Honeywell’s Fuselage Mount Antenna to align with
+                  sales and planning
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Managed departmental budget for indirect materials and
+                  supplies within the manufacturing lab to meet organizational
+                  goals
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Developed and maintained cross training program for
+                  technicians and assemblers to increase capabilities and
+                  productivity
+                </li>
+              </div>
+            </ul>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
