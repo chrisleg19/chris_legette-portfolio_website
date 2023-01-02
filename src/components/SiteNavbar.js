@@ -15,9 +15,9 @@ const SiteNavbar = () =>{
           <NavDropdown.Item href="#summary">Summary</NavDropdown.Item> 
           <NavDropdown.Divider />
             <NavDropdown.Item href="#technicalSkills">Technical Skills</NavDropdown.Item>  
-            <NavDropdown.Item href="#action/3.2">Education</NavDropdown.Item>  
-            <NavDropdown.Item href="#action/3.3">Certifications</NavDropdown.Item>  
-            <NavDropdown.Item href="#action/3.4">Experience</NavDropdown.Item>  
+            <NavDropdown.Item href="#education">Education</NavDropdown.Item>  
+            <NavDropdown.Item href="#certifications">Certifications</NavDropdown.Item>  
+            <NavDropdown.Item href="#experience">Experience</NavDropdown.Item>  
             
              
           </NavDropdown> 

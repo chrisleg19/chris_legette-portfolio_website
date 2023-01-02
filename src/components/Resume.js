@@ -73,7 +73,7 @@ const Resume = () => {
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
-          <Accordion.Header>Education</Accordion.Header>
+          <Accordion.Header id="education">Education</Accordion.Header>
           <Accordion.Body>
             <ul>
               <div className="educationBlock">
@@ -111,7 +111,7 @@ const Resume = () => {
         </Accordion.Item>
 
         <Accordion.Item eventKey="3">
-          <Accordion.Header>Certifications</Accordion.Header>
+          <Accordion.Header id="certifications">Certifications</Accordion.Header>
           <Accordion.Body className="certificateBlock">
             <Container>
               <Row>
@@ -157,7 +157,7 @@ const Resume = () => {
         </Accordion.Item>
 
         <Accordion.Item eventKey="4">
-          <Accordion.Header>Professional Experience</Accordion.Header>
+          <Accordion.Header id="experience">Professional Experience</Accordion.Header>
           <Accordion.Body>
             <ul style={{ padding: 0 }}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -384,6 +384,110 @@ const Resume = () => {
                   Developed and maintained cross training program for
                   technicians and assemblers to increase capabilities and
                   productivity
+                </li>
+              </div>
+            </ul>
+
+            <ul style={{ padding: 0 }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h6>Logistics Manager</h6>
+                <h6>June 2015 – July 2018</h6>
+              </div>
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Stored, transported, and delivered goods for Honeywell
+                  Norcross, a 190,000-sq. ft. manufacturing facility (270+
+                  employees; 15+ space, defense, & commercial programs)
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Eliminated a backlog of 300+ customer assets in receiving,
+                  reducing turnaround time by 91%
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Awarded Honeywell Norcross’s Productivity Award for completing
+                  various projects and improving processes to save 6,800-man
+                  hours/year
+                </li>
+              </div>
+            </ul>
+
+            <ul style={{ padding: 0 }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h6>
+                  U.S. Army Medical Materiel Center Southwest-Asia - Operations
+                  Officer (Qatar)
+                </h6>
+                <h6>April 2014 – June 2015</h6>
+              </div>
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Established fluid internal operations for a medical supply and
+                  distribution center in the US Army with annual demands
+                  exceeding $50M and serving 228+ deployed joint customers
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Received the Army Commendation Medal while at USAMMC-SWA for:
+                  <div style={{ marginLeft: "3em" }}>
+                    <li style={{ listStyle: "circle" }}>
+                      Managing the shipment of 400+ tons of medical materiel
+                      using military assets, which had a cost avoidance of
+                      approximately $400,000 per month
+                    </li>
+                    <li style={{ listStyle: "circle" }}>
+                      Distributing cold chain shipments accounted for $1.5M+ and
+                      included the influenza vaccine used to immunize Soldiers
+                      and DoD Civilians during the 2014 flu season
+                    </li>
+                    <li style={{ listStyle: "circle" }}>
+                      Coordinating shipment of equipment valued $500,000+ for
+                      Soldiers into and out of theater without loss or damage to
+                      government property, also coordinated over 30 trips of
+                      personnel traveling to Kuwait, Afghanistan, Iraq, and
+                      Jordan
+                    </li>
+                  </div>
+                </li>
+              </div>
+            </ul>
+
+            <ul style={{ padding: 0 }}>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <h6>
+                  U.S. Army Reserves 3rd Medical Command Deployment Support -
+                  Logistics Officer (Atlanta,GA)
+                </h6>
+                <h6>June 2011 – April 2014</h6>
+              </div>
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Managed logistics for 70+ medical units in the U.S Army
+                  Reserves under 3rd MCDS Headquarters
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Established and maintained a database to enhance the
+                  supervision of equipment status under the 3rd MCDS, resulting
+                  in an increase of readiness by 83%
+                </li>
+              </div>
+
+              <div>
+                <li style={{ marginLeft: "3em" }}>
+                  Team Lead for Command Supply Discipline Program Inspections
+                  for training on inventory management, warehouse and storage
+                  management, stock control requirements, receipt, and issue of
+                  supplies for all units under the command
                 </li>
               </div>
             </ul>
