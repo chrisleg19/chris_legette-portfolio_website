@@ -4,10 +4,10 @@ const ProjectsGames = () =>{
     return(
       <div className="carouselContainer" id='games'>
       <Carousel fade className="carousel">
-      <Carousel.Item className='firstSlideContainer'>
+      <Carousel.Item className='slideContainer'>
         <img
-          className="d-block w-100 picture"
-          fluid="true" src= {require("../resources/Jeopardy_screenshot.jpg")}
+          className="projImg picture"
+          fluid="true" src= {require("../resources/jeopardy_game.png")}
           alt="First slide"
         />
         <div className='captionBlock1'>
@@ -18,10 +18,10 @@ const ProjectsGames = () =>{
         </div>
       </Carousel.Item>
 
-      <Carousel.Item className='secondSlideContainer'>
+      <Carousel.Item className='slideContainer'>
         <img
-          className="d-block w-100 picture"
-          fluid="true" src= {require("../resources/Profit_margin_game_screenshot.jpg")}
+          className="projImg picture"
+          fluid="true" src= {require("../resources/profit-margin-simulation_game.png")}
           alt="Second slide"
         />
         <div className='captionBlock2'>
@@ -33,10 +33,10 @@ const ProjectsGames = () =>{
       </Carousel.Item>
 
       
-      <Carousel.Item>
+      <Carousel.Item className='slideContainer'>
         <img
-          className="d-block w-100 picture"
-          fluid="true" src= {require("../resources/tic-tac-toe_screenshot.jpg")}
+          className="projImg picture"
+          fluid="true" src= {require("../resources/tic-tac-toe_game.png")}
           alt="Third slide"
         />
 

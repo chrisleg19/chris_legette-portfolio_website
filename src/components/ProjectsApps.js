@@ -11,8 +11,8 @@ const ProjectsApps = () =>{
       <Carousel.Item className='slideContainer'>
        
         <img
-          className="d-block w-100 picture"
-          fluid="true" src= {require("../resources/clblogapp_screenshot.jpg")}
+          className="projImg picture"
+          fluid="true" src= {require("../resources/software-engineering_blog.png")}
           alt="First slide"
         />
         <div className='captionBlock1'>
@@ -26,8 +26,8 @@ const ProjectsApps = () =>{
 
       <Carousel.Item className='slideContainer'>
         <img
-          className="d-block w-100 picture"
-          fluid="true" src= {require("../resources/project_manager_app_screenshot.jpg")}
+          className="projImg picture"
+          fluid="true" src= {require("../resources/project_manager_app.png")}
           alt="Second slide"
         />
         <div className='captionBlock2'>
@@ -41,8 +41,8 @@ const ProjectsApps = () =>{
       
       <Carousel.Item className='slideContainer'>
         <img
-          className="d-block w-100 picture"
-          fluid="true" src= {require("../resources/reactmovieapp_screenshot.jpg")}
+          className="projImg picture"
+          fluid="true" src= {require("../resources/react_movie_app.png")}
           alt="Third slide"
         />
 
