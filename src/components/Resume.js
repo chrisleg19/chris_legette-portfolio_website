@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Resume = () => {
   return (
     <div className="resumeContainer">
-      <h3 style={{ textAlign: "center" }}>Resume</h3>
+      <h3 style={{ textAlign: "center", marginBottom:"1rem"}}>Resume</h3>
       <Accordion alwaysOpen>
         <Accordion.Item eventKey="0">
           <Accordion.Header id="summary">Summary</Accordion.Header>
